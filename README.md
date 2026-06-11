@@ -4,64 +4,62 @@ Enterprise Multi-Agent AI Platform for Autonomous Incident Management, Root Caus
 
 ## Overview
 
-The Agentic AIOps Platform is an enterprise-grade AI Operations platform built using:
+The Agentic AIOps Platform is an enterprise-grade platform designed to automate operational workflows using Agentic AI, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), AgentOps, AI Observability, and Chaos Engineering.
 
-- Multi-Agent AI
-- LangGraph
-- Amazon Bedrock
-- RAG
-- MCP
-- Kubernetes
-- n8n
-- AgentOps
-- AI Observability
-- Chaos Engineering
+The platform enables autonomous detection, diagnosis, decision-making, remediation, and validation of operational incidents across cloud-native environments.
 
-The platform automates incident triage, root-cause analysis, decision-making, remediation, and recovery validation.
+## Key Capabilities
 
-## Key Features
-
-- Autonomous Incident Detection
-- AI-powered RCA
-- RAG-based Knowledge Retrieval
-- MCP Tool Integration
-- Agentic Workflows
-- Automated Remediation
-- AI Observability
-- Chaos Engineering
-- Self-Healing Operations
-
-## Architecture
-
-[Architecture Diagram]
+* Incident Detection and Classification
+* Event Correlation
+* AI-powered Root Cause Analysis
+* RAG-based Knowledge Retrieval
+* Decision Intelligence
+* Automated Remediation
+* Recovery Validation
+* Postmortem Generation
+* Continuous Learning
 
 ## Technology Stack
 
-| Layer | Technology |
-|---------|------------|
-| Cloud | AWS |
-| Container Platform | EKS |
-| Agent Framework | LangGraph |
-| Workflow Engine | n8n |
-| LLM Platform | Bedrock |
-| Vector Search | OpenSearch |
-| AgentOps | Langfuse |
-| AI Observability | Arize Phoenix |
-| Monitoring | Grafana |
-| Chaos Engineering | LitmusChaos |
+* AWS
+* Amazon EKS
+* Amazon Bedrock
+* OpenSearch
+* LangGraph
+* n8n
+* MCP
+* Langfuse
+* Arize Phoenix
+* Prometheus
+* Grafana
+* LitmusChaos
+* ArgoCD
+* Terraform
 
-## Project Roadmap
+## Project Phases
 
-Phase 1 – Intelligent Incident Assistant
+### Phase 1
 
-Phase 2 – Multi-Agent Operations
+Incident Agent + Knowledge Agent + RCA Agent
 
-Phase 3 – AgentOps & AI Observability
+### Phase 2
 
-Phase 4 – Autonomous Remediation
+Decision Agent + Compliance Agent
 
-Phase 5 – Chaos Engineering
+### Phase 3
 
-## License
+Remediation Agent + Validation Agent
 
-Apache 2.0
+### Phase 4
+
+AgentOps + AI Observability
+
+### Phase 5
+
+Chaos Engineering + Autonomous Operations
+
+## Architecture
+
+Documentation available under `/docs/architecture`.
+
